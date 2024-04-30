@@ -1,0 +1,5 @@
+#AnchorPane {
+    -fx-background-image: url('/image/background.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}

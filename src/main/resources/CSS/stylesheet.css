@@ -1,0 +1,58 @@
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-font-family: "Arial";
+    -fx-base: #575757;
+}
+
+.button {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #4a4d50;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 150px; /* Set a preferred width for the button */
+    -fx-pref-height: 50px; /* Set a preferred height for the button */
+    -fx-transition: all 0.3s ease; /* This will animate all changes that occur on hover */
+}
+
+.button:hover {
+    -fx-background-color: #4a4d50;
+    -fx-scale-x: 1.1; /* Increase the width of the button by 10% on hover */
+    -fx-scale-y: 1.1; /* Increase the height of the button by 10% on hover */
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+.text-field, .password-field {
+    -fx-font-size: 16px; /* Adjust font size */
+    -fx-padding: 10px; /* Adjust padding */
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #4a4d50;
+    -fx-border-radius: 10px; /* Increase border radius */
+    -fx-text-fill: #ffffff;
+    -fx-pref-width: 180px; /* Adjust preferred width */
+    -fx-pref-height: 30px; /* Adjust preferred height */
+    -fx-transition: all 4s ease-in-out; /* Adjust transition speed and type */
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #3c3f41;
+    -fx-scale-x: 1.02; /* Adjust focus width increase */
+    -fx-scale-y: 1.02; /* Adjust focus height increase */
+}
+
+.error-label {
+    -fx-text-fill: #ff7f7f; /* Mellow red text color */
+    -fx-font-family: "Apple Braille"; /* Apple font */
+    -fx-font-size: 16px; /* Adjust font size as needed */
+}
+
+.username-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 24px; /* Increase the font size */
+}

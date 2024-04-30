@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" prefHeight="800" prefWidth="600" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.batomicaomber.view.StartController">
+   <children>
+      <Label text="Batomic Aomber">
+         <font>
+            <Font name="Apple Braille" size="43.0" />
+         </font>
+      </Label>
+      <Button id="signupButton" mnemonicParsing="false" onMouseClicked="#signupButtonClickListener" prefHeight="52.0" prefWidth="111.0" text="Sign Up" />
+      <Button id="loginButton" mnemonicParsing="false" onMouseClicked="#loginButtonClickListener" prefHeight="52.0" prefWidth="111.0" text="Login" />
+   </children>
+</VBox>

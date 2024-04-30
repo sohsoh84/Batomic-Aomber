@@ -1,0 +1,47 @@
+.alert > .dialog-pane {
+    -fx-background-color: #2b2b2b;
+    -fx-font-family: "Roboto"; /* Change this to your preferred modern font */
+    -fx-base: #575757;
+}
+
+.alert .button {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #4a4d50;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-min-width: 100px;
+    -fx-min-height: 50px;
+    -fx-transition: all 0.3s ease;
+    -fx-graphic: none; /* This will remove the info icon */
+}
+
+.alert .button:hover {
+    -fx-background-color: #4a4d50;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.alert .label {
+    -fx-text-fill: #ffffff;
+}
+
+.alert .header-panel {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #4a4d50;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+    -fx-alignment: center; /* This will center the header */
+}
+
+.alert .content-panel {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #4a4d50;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10;
+}
